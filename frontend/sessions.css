@@ -1,0 +1,72 @@
+#sessions-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: calc(100% - 20vw);
+	/* height: 100%; */
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.session-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	background-color: hsl(240, 50%, 20%, 0.5);
+	padding: 20px;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.session-header {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: start;
+	font-weight: 800;
+	gap: 1rem;
+	padding: 0.5rem 1rem;
+}
+
+.session-body {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem 1rem;
+}
+
+.exercise-card {
+	display: flex;
+	gap: 0.5rem;
+	padding: 0.5rem 0;
+}
+
+.edit-button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0.25rem;
+	background-color: transparent;
+	img {
+		width: 20px;
+		height: 20px;
+		filter: drop-shadow 0px 0px 5px rgba(0, 0, 0, 0.1);
+	}
+	outline: var(--primary-color) solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feather-edit {
+	stroke: white !important;
+}
+
+.edit-button:focus {
+	border: none;
+	outline: none;
+}

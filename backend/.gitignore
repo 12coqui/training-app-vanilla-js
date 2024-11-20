@@ -1,0 +1,23 @@
+# Node modules
+/node_modules
+
+# Environment variables
+.env
+
+# Tool configuration files
+.prettierrc
+jest.config.js
+nodemon.json
+
+# Logs
+*.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE specific files
+.vscode/
+.idea/
+
+# NPM lock files
+package-lock.json
